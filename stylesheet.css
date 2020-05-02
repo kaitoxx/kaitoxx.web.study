@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1905px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.top-wrapper {
+    background-color: #21CE99;
+    height: 670px;
+    width: 100%;  
+    color: white;   
+    position: relative;
+    padding-top:40px;  
+    top: 0px;   
+}
+.top-texts{   
+    float: left;
+    margin-top: 180px;
+    margin-left: 360px;
+    height: 360px;
+    width:485px;
+    
+}
+
+.top-texts h1{ 
+    line-height:30px;
+    font-size:55px;
+    color: black;
+    margin-top: 0px;
+    font-weight: 800;
+    
+}
+.top-texts p{
+    color: black;
+    font-size: 21px;
+}
+.signup{
+    padding:17px 50px 17px 50px;
+    background-color: rgb(36,42,45);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    transition: all 1.4s ease;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.top-wrapper img{
+    position: absolute;
+    right: 320px;
+    top: 60px;
+
+    
+}
+.main-wrapper01{
+    position: relative;
+    top: 0px;    
+    height:340px;
+    width: 100%;
+    background-image: url(画像/1586320.jpg);
+    text-align: center;
+    background-size: cover;
+   }
+   .main-text1{
+    margin-top: 90px;
+    margin-left: 500px;
+    margin-right: 500px;
+   }
+   .main-text1 p{
+    line-height:2.0;
+    }
+    header{
+        height: 65px;
+        background-color: rgba(255, 255, 255, 0.096);
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+        font-family: 'Courgette', cursive;
+    }
+    header h1{
+        position: absolute;
+        left: 70px;
+        display: block;
+        line-height:6px;
+        font-size: 40px;
+    }
+    .header-right{
+        float:right;
+        font-size: 25px;
+        
+    }
+    .header-right a{
+        background-color: rgba(4, 126, 65, 0.212);
+        line-height: 65px;
+        display: block;
+        transition: all 1s ease;
+        color: rgb(232, 255, 240)
+    }
+    .login{
+        position: absolute;
+        right: 70px;
+        padding: 0 20px;  
+    }
+    .header-right a:hover{
+        background-color: rgba(158, 252, 205, 0.377);
+    }
+    #loginpic{
+        position: fixed;
+        top:0px;
+        right:0px;
+        left:0px;
+        bottom:0px;
+        background-color: rgba(0, 0, 0, 0.616);
+        z-index: 100;
+        display: none;
+    }
+    .modal{
+        position: absolute;
+        top:210px;
+        left:680px;
+        background-color: #e6ecf0;
+        padding: 20px 0 40px;
+        border-radius: 10px;
+        width: 450px;
+        height: auto;
+        text-align: center;
+    }
+    .fa-times{
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        color: rgba(128, 128, 128, 0.46);
+        cursor: pointer;
+    }
+    #signup-form h2 {
+        color: #5f5d60;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+    #signup-form input{
+        width: 320px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 12px 12px;
+        border: 1px solid #d0d5d8;
+        border-radius: 5px;
+    }
+    #submit-btn{
+        display: inline-block;
+        padding:14px 140px;
+        background-color: #5dca88;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    #signup-form {
+        width: 100%;
+    }
+
+    #login{
+        position: fixed;
+        top:0px;
+        right:0px;
+        left:0px;
+        bottom:0px;
+        background-color: rgba(0, 0, 0, 0.616);
+        z-index: 100;
+        display: none;
+    }
+    
+    #login-form h2 {
+        color: #5f5d60;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+    #login-form input{
+        width: 320px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 12px 12px;
+        border: 1px solid #d0d5d8;
+        border-radius: 5px;
+    }
+    #login-btn{
+        display: inline-block;
+        padding:14px 140px;
+        background-color: #5dca88;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    #login-form {
+        width: 100%;
+    }
+    #new{
+          display: inline-block;
+          color: white;
+          background-color: #5dca88;
+          cursor: pointer;
+          padding:14px 85px;
+          border: none;
+          border-radius: 3px;
+    }
