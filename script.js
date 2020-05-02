@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function() {
     $('.btn').click(function(){
         $('#loginpic').fadeIn(1000);
     });
